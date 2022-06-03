@@ -1,0 +1,279 @@
+@import url(../css-reset/style.css);
+@import url(../css/nav-footer/style.css);
+
+body {
+  background: url(../img/background.png), rgba(255, 255, 255, 0.5);
+  background-blend-mode: color;
+  background-position: 0 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1980px;
+  padding: 0;
+}
+
+.header {
+  &__info {
+    width: 90%;
+    
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 99px;
+    display: flex;
+    justify-content: space-between;
+    color: #131313;
+    font-weight: 500;
+  }
+}
+
+.header-info {
+  &__text {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 80px;
+    margin-bottom: 10px;
+  }
+
+  &__slogan {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+
+  &__discription {
+    font-size: 25px;
+  }
+
+  &__number-box {
+    
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+    border: 4px solid #32bdae;
+    border-radius: 20px;
+    margin-right: 4%;
+  }
+}
+
+.number-box {
+  &__text {
+    font-size: 55px;
+  }
+
+  &__number {
+    font-size: 100px;
+  }
+
+  &__button {
+    width: 90%;
+    height: 17%;
+    background: #faa72d;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #fff;
+  }
+}
+
+.main {
+  &__container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  &__blog {
+    font-weight: 500;
+    color: #131313;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  &__carousel {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  &__cards {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    margin-top: 99px;
+  }
+
+  &__questions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+
+  &__sponsors {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+.main__carousel {
+  margin: 0 auto;
+  width: 98%;
+}
+
+.blog {
+  &__description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.blog-description {
+  &__title {
+    font-size: 60px;
+    margin: 0;
+  }
+
+  &__text {
+    font-size: 27px;
+  }
+}
+
+.carousel-title {
+  font-size: 34px;
+  display: inline-block;
+  width: auto;
+  background-color: rgba(24, 3, 3, 0.2);
+}
+
+.carousel-text {
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+  display: inline-block;
+  width: auto;
+  background-color: rgba(24, 3, 3, 0.2);
+}
+
+.cards {
+  &__title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  &__row {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #faa72d;
+    position: relative;
+    height: 470px;
+    border-radius: 30px;
+    
+    padding: 15px 20px 30px 20px;
+    color: #fff;
+  }
+}
+
+.cards-item {
+  transition: 1s;
+
+  &:hover {
+    transform: scale(1.075);
+    background-color: #ffb649;
+  }
+
+  &__number {
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  &__content {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.card-content {
+  &__icon {
+    margin-bottom: 25px;
+  }
+
+  &__img {
+    height: 60px;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+  }
+}
+
+.questions-accordion {
+  width: 50%;
+}
+
+.questions {
+  &__photo {
+    width: 40%;
+    height: 50%;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.boot-accordeon {
+  background-color: rgba(79, 207, 190, 0.377);
+}
+
+.sponsors {
+  &__title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  &__row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  &__logo {
+    height: 156px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+}

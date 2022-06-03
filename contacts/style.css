@@ -1,0 +1,104 @@
+@import url(/css-reset/style.css);
+@import url(/css/nav-footer/style.css);
+body {
+  background: url(/img/bg.png), rgba(255, 255, 255, 0.5);
+  background-blend-mode: color;
+  background-position: 0 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  margin-bottom: 40px;
+}
+
+.main {
+  font-family: "inter";
+  height: 85vh;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__boxes {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+  font-size: 23px;
+  margin-bottom: 40px;
+}
+
+.main__social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 35%;
+  height: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.boxes__item {
+  width: 90%;
+  -ms-flex-preferred-size: 27%;
+      flex-basis: 27%;
+  background-color: #faa72d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.box__info {
+  width: 50%;
+}
+
+.social-media__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-media__img {
+  display: block;
+  height: 80px;
+  margin-right: 30px;
+}
+
+.social-media__text {
+  font-size: 21px;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

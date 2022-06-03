@@ -1,0 +1,155 @@
+@import url(/css-reset/style.css);
+@import url(/css/nav-footer/style.css);
+body {
+  background: url(./img/bg.png), rgba(255, 255, 255, 0.5);
+  background-blend-mode: color;
+  background-position: 0 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1990px;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.main__tasks {
+  width: 100%;
+}
+
+.tasks__cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  height: 350px;
+  margin: 0 20px 30px 0;
+  padding: 5px 10px 8px 15px;
+  border-radius: 15px;
+  background-image: url(./img/card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  position: relative;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.card__link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
+.card__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 18%;
+      flex-basis: 18%;
+}
+
+.card__icon {
+  margin-right: 20px;
+}
+
+.card__title {
+  font-size: 30px;
+}
+
+.card__description {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-left: 7px;
+  padding-right: 15px;
+}
+
+.card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-icon__img {
+  height: 25px;
+}
+
+.card-description__text {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.card-description__additionally {
+  font-size: 20px;
+  color: gray;
+}
+
+.card-info__place {
+  width: 58%;
+  text-align: center;
+  padding-right: 5px;
+  margin-right: 5px;
+  border-right: 1px solid rgba(253, 87, 10, 0.671);
+}
+
+.card-info__deadline {
+  text-align: center;
+  width: 39%;
+}
+
+@media (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

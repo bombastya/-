@@ -1,0 +1,111 @@
+@import url(/css-reset/style.css);
+@import url(/css/nav-footer/style.css);
+
+body {
+  background: url(/img/bg.png), rgba(255, 255, 255, 0.5);
+  background-blend-mode: color;
+  background-position: 0 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+    font-family: 'inter';
+  width: 90%;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+
+    &__box {
+         display: flex;
+         align-items: center;
+         width: 100%;
+         margin-bottom: 80px;
+    }
+
+    &__panorama {
+        width: 100%;
+    }
+
+    &__questions{
+        margin-bottom: 70px;
+    }
+
+    &__agreement {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+}
+.box {
+
+    
+
+    &__title {
+        font-size:57px;
+
+    }
+
+    &__text{
+        font-size: 29px;
+        margin-right: 50px;
+    }
+
+    &__picture {
+        width: 40%;
+    }
+
+    &__img {
+        display: block;
+        height: 300px;
+        
+    }
+}
+.panorama {
+
+    &__img {
+        display: block;
+        width: 100%;
+        margin-bottom:40px
+    }
+}
+
+.questions-accordion {
+  width: 50%;
+}
+
+.boot-accordeon {
+  background-color: rgba(79, 207, 190, 0.377);
+}
+
+
+.agreement {
+
+    &__text {font-size: 17px;
+        width: 23%;
+        text-align: center;
+        margin-bottom: 8px;
+        color:gray;
+    }
+
+    &__btn {
+        width: 25%;
+    height: 80px;
+    background: #faa72d;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 8px;
+    }
+
+    &__link {
+        font-size:21px;
+        display:block;
+        color:black;
+        text-decoration: underline black;
+        
+    }
+}

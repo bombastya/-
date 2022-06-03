@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Профиль</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav__logo nav-logo">
+          <img class="nav-logo__img" src="/img/logo.jpg" alt="logo" />
+        </div>
+
+        <p class="nav__title">помощь рядом</p>
+
+        <ul class="nav__list nav-list">
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="/index.html">Главная</a>
+          </li>
+
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="/volunteer/index.html"
+              >Стать волонтёром</a
+            >
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="/tasks/index.html">Задания</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="/blog/index.html">Блог</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="/contacts/index.html">Контакты</a>
+          </li>
+        </ul>
+
+        <div class="nav__loupe nav-loupe">
+          <img class="nav-loupe__img" src="/img/loupe.png" alt="loupe" />
+        </div>
+
+        <div class="nav__input nav-input">
+          <input class="nav-input__search" type="text" placeholder="Поиск" />
+        </div>
+
+        <p class="nav__number">+375 (446)-95-68-76</p>
+
+        <div class="nav__auth-bar auth-bar">
+          <a class="auth-bar__link" href="#">Войти</a>
+          <a class="auth-bar__account" href="#">
+            <img
+              class="auth-bar__img"
+              src="/img/account_photo.png"
+              alt="account-photo"
+            />
+          </a>
+        </div>
+
+        <div class="nav__bar nav-bar">
+          <img class="nav-bar__img" src="/img/nav-bar.png" alt="nav-bar" />
+        </div>
+      </nav>
+
+      <main class="main">
+        <div class="main__profile profile">
+          <div class="profile__photo profile-photo">
+            <img
+              class="profile-photo__img"
+              src="../img/profile-photo.png"
+              alt="profile-photo"
+            />
+            <div class="profile-photo__rang rang" title="Ранг доверия">
+              <img class="rang__img" src="../img/crown.png" alt="rang" />
+              <p class="rang__number">3</p>
+            </div>
+          </div>
+
+          <p class="profile__surname">Енотов</p>
+          <p class="profile__name">Жираф</p>
+          <p class="profile__portonymic">Львович</p>
+          <p class="profile__edit">изменить профиль</p>
+        </div>
+
+        <div class="main__tasks tasks">
+          <p class="tasks__title">Задания</p>
+
+          <div class="tasks__section tasks-section">
+            <p class="tasks-section__title">Активные задачи</p>
+            <div class="tasks-section__row section-row">
+              <div class="section-row__card card">
+                <a class="card__link" href="#"></a>
+                <div class="card__header">
+                  <div class="card__icon card-icon">
+                    <img
+                      class="card-icon__img card-icon__active"
+                      src="/img/active.png"
+                      alt="active-icon"
+                    />
+                  </div>
+
+                  <p class="card__title">Купить продукты</p>
+                </div>
+
+                <div class="card__description card-description">
+                  <p class="card-description__text">
+                    Нужно сходить в магазин. Также зайти на рынок.
+                  </p>
+                  <p class="card-description__additionally">
+                    * Может потребоваться машина
+                  </p>
+                </div>
+
+                <div class="card__info card-info">
+                  <p class="card-info__place">г. Минск, Фрунзенский р-он</p>
+                  <p class="card-info__deadline">до 20:00 05.06.22</p>
+                </div>
+              </div>
+
+              <div class="section-row__card card">
+                <a class="card__link" href="#"></a>
+                <div class="card__header">
+                  <div class="card__icon card-icon">
+                    <img
+                      class="card-icon__img card-icon__active"
+                      src="/img/active.png"
+                      alt="active-icon"
+                    />
+                  </div>
+
+                  <p class="card__title">Купить продукты</p>
+                </div>
+
+                <div class="card__description card-description">
+                  <p class="card-description__text">
+                    Нужно сходить в магазин. Также зайти на рынок.
+                  </p>
+                  <p class="card-description__additionally">
+                    * Может потребоваться машина
+                  </p>
+                </div>
+
+                <div class="card__info card-info">
+                  <p class="card-info__place">г. Минск, Фрунзенский р-он</p>
+                  <p class="card-info__deadline">до 20:00 05.06.22</p>
+                </div>
+              </div>
+
+              <div class="section-row__card card">
+                <a class="card__link" href="#"></a>
+                <div class="card__header">
+                  <div class="card__icon card-icon">
+                    <img
+                      class="card-icon__img card-icon__active"
+                      src="/img/active.png"
+                      alt="active-icon"
+                    />
+                  </div>
+
+                  <p class="card__title">Купить продукты</p>
+                </div>
+
+                <div class="card__description card-description">
+                  <p class="card-description__text">
+                    Нужно сходить в магазин. Также зайти на рынок.
+                  </p>
+                  <p class="card-description__additionally">
+                    * Может потребоваться машина
+                  </p>
+                </div>
+
+                <div class="card__info card-info">
+                  <p class="card-info__place">г. Минск, Фрунзенский р-он</p>
+                  <p class="card-info__deadline">до 20:00 05.06.22</p>
+                </div>
+              </div>
+            </div>
+
+            <p class="tasks-section__title">Избранные задачи</p>
+            <div class="tasks-section__row section-row">
+              <div class="section-row__card card">
+                <a class="card__link" href="#"></a>
+                <div class="card__header">
+                  <div class="card__icon card-icon">
+                    <img
+                      class="card-icon__img card-icon__favourite"
+                      src="/img/favourite.png"
+                      alt="favourite-icon"
+                    />
+                  </div>
+
+                  <p class="card__title">Купить продукты</p>
+                </div>
+
+                <div class="card__description card-description">
+                  <p class="card-description__text">
+                    Нужно сходить в магазин. Также зайти на рынок.
+                  </p>
+                  <p class="card-description__additionally">
+                    * Может потребоваться машина
+                  </p>
+                </div>
+
+                <div class="card__info card-info">
+                  <p class="card-info__place">г. Минск, Фрунзенский р-он</p>
+                  <p class="card-info__deadline">до 20:00 05.06.22</p>
+                </div>
+              </div>
+
+              <div class="section-row__card card">
+                <a class="card__link" href="#"></a>
+                <div class="card__header">
+                  <div class="card__icon card-icon">
+                    <img
+                      class="card-icon__img card-icon__favourite"
+                      src="/img/favourite.png"
+                      alt="favourite-icon"
+                    />
+                  </div>
+
+                  <p class="card__title">Купить продукты</p>
+                </div>
+
+                <div class="card__description card-description">
+                  <p class="card-description__text">
+                    Нужно сходить в магазин. Также зайти на рынок.
+                  </p>
+                  <p class="card-description__additionally">
+                    * Может потребоваться машина
+                  </p>
+                </div>
+
+                <div class="card__info card-info">
+                  <p class="card-info__place">г. Минск, Фрунзенский р-он</p>
+                  <p class="card-info__deadline">до 20:00 05.06.22</p>
+                </div>
+              </div>
+
+              <div class="section-row__card card">
+                <a class="card__link" href="#"></a>
+                <div class="card__header">
+                  <div class="card__icon card-icon">
+                    <img
+                      class="card-icon__img card-icon__favourite"
+                      src="/img/favourite.png"
+                      alt="favourite-icon"
+                    />
+                  </div>
+
+                  <p class="card__title">Купить продукты</p>
+                </div>
+
+                <div class="card__description card-description">
+                  <p class="card-description__text">
+                    Нужно сходить в магазин. Также зайти на рынок.
+                  </p>
+                  <p class="card-description__additionally">
+                    * Может потребоваться машина
+                  </p>
+                </div>
+
+                <div class="card__info card-info">
+                  <p class="card-info__place">г. Минск, Фрунзенский р-он</p>
+                  <p class="card-info__deadline">до 20:00 05.06.22</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="tasks-section__button">Смотреть все</button>
+        </div>
+
+        <div class="main__questions questions">
+          <p class="questions__title">Вопрос-ответ</p>
+
+          <div class="questions__box">
+            <div class="questions__accordeon">
+              <div
+                class="accordion questions-accordion"
+                id="accordionPanelsStayOpenExample"
+              >
+                <div class="accordion-item boot-accordeon">
+                  <h2
+                    class="accordion-header questions-accordion__header"
+                    id="panelsStayOpen-headingOne"
+                  >
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne"
+                    >
+                      Что такое ранг доверия? Для чего он нужен?
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne"
+                  >
+                    <div class="accordion-body">
+                      <strong
+                        >Это показатель вашей успешности выполнения
+                        заданий</strong
+                      >
+                      Чем больше заданий вы выполняете, тем больше становится
+                      ранг. За отменённые или невыполненные в срок задания ранг
+                      снижается. Таким образом алгоритм может понимать,
+                      насколько вы ответственный человек и предлагать задания,
+                      требующие выполнения только надёжными, проверенными
+                      людьми.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item boot-accordeon">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      Почему именно я должен начать помогать? Других что-ли не
+                      хватает?
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo"
+                  >
+                    <div class="accordion-body">
+                      <strong>Да, не хватает.</strong>
+                      Но мы верим в людей и считаем, что добрых людей
+                      действительно много. Но не так много тех, кто готов что-то
+                      сделать для того, чтобы другим жить стало хоть капельку
+                      легче. Наша платформа позволяет легко начать бескорыстно
+                      помогать.
+
+                      <code>.accordion-body</code>, хотя переход ограничивает
+                      переполнение.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item boot-accordeon">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseThree"
+                    >
+                      Как я могу помочь?
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree"
+                  >
+                    <div class="accordion-body">
+                      <strong
+                        >Зарегестрируйтесь на нашей платформе и начните прямо
+                        сейчас!</strong
+                      >
+                      По В любом деле главное - желание. Вы можете оглянуться
+                      вокруг, походить по улицам своего города и большой
+                      вероятностью найти человека, которому будет нужна ваша
+                      помощь в тот момент. С помощью нашего сайта вы сможете
+                      напрямую связаться с нуждающимися, предварительно выполнив
+                      задание. Задания могут быть разными. Начиная от похода за
+                      продуктами, заканчивая помощьбю в уборке либо на даче
+                      <code>.accordion-body</code>, хотя переход ограничивает
+                      переполнение.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="questions__options"></div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__red-line red-line">
+          <div class="red-line__item">
+            <img class="red-line__img" src="/img/red-line.png" alt="red line" />
+          </div>
+
+          <div class="red-line__item">
+            <img class="red-line__img" src="/img/red-line.png" alt="red line" />
+          </div>
+
+          <div class="red-line__item">
+            <img class="red-line__img" src="/img/red-line.png" alt="red line" />
+          </div>
+        </div>
+
+        <div class="footer__info">
+          <div class="footer__logo footer-logo">
+            <img class="footer-logo__img" src="/img/logo.jpg" alt="logo" />
+          </div>
+
+          <div class="footer__box">
+            <div class="footer__nav footer-nav">
+              <ul class="footer__list footer-list">
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="/index.html">Главная</a>
+                </li>
+
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="/volunteer/index.html"
+                    >Стать волонтёром</a
+                  >
+                </li>
+              </ul>
+
+              <ul class="footer__list footer-list">
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="/tasks/index.html"
+                    >Задания</a
+                  >
+                </li>
+
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="/blog/index.html">Блог</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__contacts">
+              <ul class="footer__list footer-list">
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">E-mail</a>
+                </li>
+
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Контактный номер </a>
+                </li>
+
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Колл-центр</a>
+                </li>
+
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Адрес </a>
+                </li>
+              </ul>
+
+              <ul class="footer__list footer-list">
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">HelpMe@gmail.com </a>
+                </li>
+
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">+375 (446)-95-68-76 </a>
+                </li>
+
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">+375 (446)-95-68-76 </a>
+                </li>
+
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Ул. Наилучшая 69 </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,420 @@
+.container {
+  max-width: 1980px;
+  padding: 0;
+} 
+
+.nav {
+  width: 92%;
+  height: 85px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 21.5px;
+  font-family: "Inter", sans-serif;
+  color: #32bdae;
+  margin-bottom: 70px;
+
+  &__logo {
+    margin-right: 10px;
+  }
+
+  &__title {
+    display: none;
+    text-transform: uppercase;
+    width: 70%;
+    font-size: 30px;
+  }
+
+  &__list {
+    width: 53%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  &__loupe {
+    display: none;
+  }
+
+  &__input {
+    width: 14%;
+  }
+
+  &__number {
+    width: 13%;
+    font-size: 18px;
+  }
+
+  &__auth-bar {
+    height: 40px;
+    display: flex;
+  }
+
+
+
+  &__bar {
+    display: none;
+  }
+}
+
+.nav-logo {
+  &__img {
+    height: 80px;
+  }
+}
+
+.nav-list {
+  &__item {
+    
+  }
+
+  &__link {
+    color: #32bdae;
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:hover{
+      color:orange;
+      
+
+      // border: 1px orange solid;
+      
+    }
+  }
+}
+
+.nav-loupe {
+  &__img {}
+}
+
+.nav-input {
+  &__search {
+    width: 100%;
+    background-image: url(/img/loupe.png);
+    background-repeat: no-repeat;
+    /*Убираем повтор изображения*/
+    background-position: 4px;
+    /*Позиционируем*/
+    outline: none;
+    /*убираем стандартную обводку браузера*/
+    -moz-border-radius: 5px;
+    /*закругляем углы для Mozilla*/
+    -webkit-border-radius: 5px;
+    /*закругляем углы для Chrome, Safari*/
+    border-radius: 5px;
+    /*закругляем углы для остальных браузеров*/
+    border: #0c6d63 1px solid;
+    padding-left: 34px;
+    /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
+    height: 30px;
+    /*высота строки ввода*/
+    font-size: 14px;
+    /*размер шрифта*/
+  }
+}
+
+.auth-bar {
+  &__link {
+    
+    display:block;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: #32bdae;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  &__account{
+    
+    height: 40px;
+  }
+
+  &__img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.nav-bar {
+  &__img {
+    height: 40px;
+  }
+}
+
+
+.footer {
+  height: 450px;
+  background-color: #84d7ce;
+  padding-top: 15px;
+
+  &__red-line {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  &__info {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  &__logo {
+    margin-right: 25px;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 57%;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    border-right: #fff solid 1px;
+    margin-right: 20px;
+  }
+
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 56%;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+}
+
+.red-line {
+  &__item {
+    position: relative;
+    width: 50%;
+  }
+
+  &__img {
+    height: 150px;
+    width: 100%;
+  }
+}
+
+.footer-logo {
+  &__img {
+    height: 70px;
+  }
+}
+
+.footer-list {
+  &__item {
+    display: flex;
+    margin-bottom: 12px;
+    margin-right: 20px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1475px) {
+  .nav {
+    &__number {
+      font-size: 15px;
+      width: 14%;
+    }
+  }
+
+  .nav-list {
+    &__link {
+      font-size: 19px;
+    }
+  }
+
+  .nav__input {
+    width: 12%;
+
+    &__link {
+      font-size: 17px;
+    }
+  }
+
+  .footer {
+    &__box {
+      width: 75%;
+    }
+  }
+}
+
+@media (max-width: 1250px) {
+  .nav__number {
+    width: 15%;
+  }
+
+  .auth-bar__link {
+    display: none;
+  }
+}
+
+@media (max-width: 1126px) {
+  .nav {
+    &__list {
+      width: 65%;
+    }
+  }
+
+  .nav__number {
+    display: none;
+  }
+
+  .nav__input {
+    width: 14%;
+  }
+
+  .nav-list__link {
+    font-size: 17.5px;
+  }
+
+  .red-line {
+    &__item {
+      &:nth-child(3) {
+        display: none;
+      }
+    }
+  }
+
+  .footer {
+    height: 430px;
+
+    &__box {
+      width: 80%;
+    }
+  }
+
+  .footer-list__link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 860px) {
+  .nav {
+    &__logo {
+      margin-right: 5px;
+    }
+
+    &__list {
+      width: 74%;
+    }
+
+    &__loupe {
+      display: block;
+    }
+
+    &__input {
+      display: none;
+    }
+  }
+
+  .nav-logo {
+    &__img {
+      height: 65px;
+    }
+  }
+
+  .red-line {
+    &__img {
+      height: 110px;
+    }
+  }
+
+  .footer {
+    height: 380px;
+  }
+
+  .footer-list {
+    &__link {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    &__title {
+      display: block;
+    }
+
+    &__list {
+      display: none;
+    }
+
+    &__bar {
+      display: block;
+    }
+  }
+
+  .auth-bar {
+    &__img {
+      display: none;
+    }
+  }
+
+  .footer {
+    &__info {
+      width: 60%;
+    }
+
+    &__box {
+      width: 60%;
+    }
+
+    &__nav {
+      border: none;
+      width: 100%;
+    }
+
+    &__contacts {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .nav {
+    &__title {
+      width: 63%;
+    }
+  }
+
+  .red-line {
+    &__img {
+      height: 70px;
+    }
+  }
+
+  .footer {
+    height: 300px;
+  }
+}
+
+@media (max-width: 460px) {
+  .nav {
+    &__title {
+      text-align: center;
+      font-size: 25px;
+    }
+
+    &__loupe {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+@import url(/css-reset/style.css);
+@import url(/css/nav-footer/style.css);
+body {
+  background: url(/img/bg.png), rgba(255, 255, 255, 0.5);
+  background-blend-mode: color;
+  background-position: 0 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  font-family: 'inter';
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.main__panorama {
+  width: 100%;
+}
+
+.main__questions {
+  margin-bottom: 70px;
+}
+
+.main__agreement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.box__title {
+  font-size: 57px;
+}
+
+.box__text {
+  font-size: 29px;
+  margin-right: 50px;
+}
+
+.box__picture {
+  width: 40%;
+}
+
+.box__img {
+  display: block;
+  height: 300px;
+}
+
+.panorama__img {
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.questions-accordion {
+  width: 50%;
+}
+
+.boot-accordeon {
+  background-color: rgba(79, 207, 190, 0.377);
+}
+
+.agreement__text {
+  font-size: 17px;
+  width: 23%;
+  text-align: center;
+  margin-bottom: 8px;
+  color: gray;
+}
+
+.agreement__btn {
+  width: 25%;
+  height: 80px;
+  background: #faa72d;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-size: 23px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.agreement__link {
+  font-size: 21px;
+  display: block;
+  color: black;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+/*# sourceMappingURL=style.css.map */

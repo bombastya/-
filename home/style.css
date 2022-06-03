@@ -1,0 +1,322 @@
+@import url(../css-reset/style.css);
+@import url(../css/nav-footer/style.css);
+body {
+  background: url(../img/background.png), rgba(255, 255, 255, 0.5);
+  background-blend-mode: color;
+  background-position: 0 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1980px;
+  padding: 0;
+}
+
+.header__info {
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 99px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #131313;
+  font-weight: 500;
+}
+
+.header-info__text {
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-info__title {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.header-info__slogan {
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+
+.header-info__discription {
+  font-size: 25px;
+}
+
+.header-info__number-box {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 10px 0;
+  border: 4px solid #32bdae;
+  border-radius: 20px;
+  margin-right: 4%;
+}
+
+.number-box__text {
+  font-size: 55px;
+}
+
+.number-box__number {
+  font-size: 100px;
+}
+
+.number-box__button {
+  width: 90%;
+  height: 17%;
+  background: #faa72d;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.main__container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.main__blog {
+  font-weight: 500;
+  color: #131313;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.main__carousel {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.main__cards {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 80px;
+  margin-top: 99px;
+}
+
+.main__questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.main__sponsors {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.main__carousel {
+  margin: 0 auto;
+  width: 98%;
+}
+
+.blog__description {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blog-description__title {
+  font-size: 60px;
+  margin: 0;
+}
+
+.blog-description__text {
+  font-size: 27px;
+}
+
+.carousel-title {
+  font-size: 34px;
+  display: inline-block;
+  width: auto;
+  background-color: rgba(24, 3, 3, 0.2);
+}
+
+.carousel-text {
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+  display: inline-block;
+  width: auto;
+  background-color: rgba(24, 3, 3, 0.2);
+}
+
+.cards__title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.cards__row {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards__item {
+  width: 23%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #faa72d;
+  position: relative;
+  height: 470px;
+  border-radius: 30px;
+  padding: 15px 20px 30px 20px;
+  color: #fff;
+}
+
+.cards-item {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.cards-item:hover {
+  -webkit-transform: scale(1.075);
+          transform: scale(1.075);
+  background-color: #ffb649;
+}
+
+.cards-item__number {
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.cards-item__content {
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card-content__icon {
+  margin-bottom: 25px;
+}
+
+.card-content__img {
+  height: 60px;
+}
+
+.card-content__text {
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+
+.questions-accordion {
+  width: 50%;
+}
+
+.questions__photo {
+  width: 40%;
+  height: 50%;
+}
+
+.questions__img {
+  width: 100%;
+  height: auto;
+}
+
+.boot-accordeon {
+  background-color: rgba(79, 207, 190, 0.377);
+}
+
+.sponsors__title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.sponsors__row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sponsors__logo {
+  height: 156px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+/*# sourceMappingURL=style.css.map */
